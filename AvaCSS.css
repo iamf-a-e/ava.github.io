@@ -6,6 +6,22 @@
 		Ava
 	</title>
 </head>
+<script type="text/javascript">
+  window.ProtoSettings = {
+    gwId: 'gw_bXAtRCaOB4Cc7ArtBgke3T6',
+    env: '',
+    onLoad: function() { Proto.show(); }
+  };
+
+  var d=document,s=d.createElement("script");
+  s.type="text/javascript",s.async=true,s.src="https://app.proto.cx/webchat/client.js";
+  var t=d.getElementsByTagName("script")[0];
+  t.parentNode.insertBefore(s,t);
+  s.addEventListener("load", function() {
+    var p = window.ProtoSettings; Proto.init(p, p.onLoad);
+  });
+</script>
+
 <body background="bot6.jpg">
 	<br />
 	<h3 align="center">
